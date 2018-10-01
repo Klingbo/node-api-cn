@@ -5,7 +5,7 @@ changes:
     pr-url: https://github.com/nodejs/node/pull/15752
     description: The `options` argument is supported now.
 -->
-* {Object}
+* `options` {Object}
   * `IncomingMessage` {http.IncomingMessage} 指定要使用的 `IncomingMessage`
     类，用于拓展原始的`IncomingMessage`类.
     **缺省:** `IncomingMessage`.
